@@ -19,7 +19,7 @@ const ResponsiveHero = () => {
                     <img className='w-100 w-sm-75' src={images.floppa_money} alt="floppa_money" />
                 </div>
                 <div className="position-relative ">
-                {/* <p className='font-16'>Coming soon</p> */}
+                <p className='font-16'>Buy $FLOP now!</p>
                     <Input button={true} placeholder={'00.00'} defaultValue={'00.00'}/>
                     <Button text={'Claim'} className={'mt-4 w-100'}/>
                 </div>

@@ -19,7 +19,7 @@ const Hero = () => {
                 <img src={images.spring} className='spring-bottom position-absolute' alt="spring" />
             </div>
             <div className="hero-content">
-                {/* <p className='font-16'>Coming soon</p> */}
+                <p className='font-16'>Buy $FLOP now!</p>
                 <div className="remaining d-flex align-items-center gap-5">
                     <Input button={true} placeholder={'00.00'} defaultValue={'00.00'}/>
                     <Button text={'Claim'}/>
