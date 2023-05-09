@@ -245,6 +245,9 @@ button {
     .floppa-shart{
         width: 180px;
     }
+    .horse {
+        margin-top: 30px;
+    }
 }
 @media (max-width:768px) {
     .title{
@@ -257,7 +260,7 @@ button {
         margin-top: 30px;
         width: 100% !important;
     }
-    .floppa-shart{
+    .floppa-shart,.horse{
         /* right: -15px !important; */
         width:260px;
     }
@@ -269,6 +272,9 @@ button {
     }
     .mt-md-35{
         margin-top: 35px;
+    }
+    .wave-down {
+        left: 37px;
     }
 }
 @media (max-width:408px) {
@@ -303,9 +309,9 @@ button {
     right: 50px;
     top: -19px;
 }
-.social-wrap{
+/* .social-wrap{
     justify-content: space-around !important;
-}
+} */
     .tree {
     right: 37px;
 }
@@ -336,6 +342,7 @@ button {
         right: 8px;
         width: 50px;
     }
+    
 }
 /* @media (min-width:767px) {
     .flex-sm-row{
