@@ -37,8 +37,8 @@ outline: none;
     font-family: 'Grongert';
     width: 100%;
 }
-.title{
-    width: 100%;
+.title {
+    width: 70%;
 }
 button {
   border: none;
@@ -139,9 +139,9 @@ padding: 10px 25px;
     bottom: -27px;
     left: 80px;
 }
-.floppa-shart{
+/* .floppa-shart{
     width: 221px;
-}
+} */
 .man-up-horse{
     position:absolute;
     width: 135px;
@@ -181,15 +181,17 @@ padding: 10px 25px;
     left:10px;
     z-index: -1
 }
-.spring-bottom{
-    bottom: 16px;
-    right: 65px;
-    z-index: -1
+.spring-bottom {
+    bottom: 2px;
+    right: 190px;
+    z-index: -1;
 }
 .w-fit-100{
     width:100px;
 }
-
+.z-0{
+    z-index:-1
+}
 
 @media (max-width:1200px) {
     /* .coming-soon,.none-md{
@@ -249,7 +251,7 @@ padding: 10px 25px;
         width: 75% !important;
     }
     .floppa_money_wrap{
-        margin-top: 120px;
+        margin-top: 30px;
         width: 100% !important;
     }
     .floppa-shart{
@@ -304,8 +306,8 @@ padding: 10px 25px;
     .coming-soon{
         padding: 8px;
     }
-    .floppa-shart{
-        width:150px
+    .floppa-shart,.horse{
+        width:50%
     }
     .time h3{
         font-size: 18px;
